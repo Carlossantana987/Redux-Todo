@@ -1,9 +1,9 @@
 export const ADD_NEW_TODO = "ADD_NEW_TODO";
-export const TOGGLE_TODO = "TOGGLE_TODO_LIST";
+export const TOGGLE_TODO_LIST = "TOGGLE_TODO_LIST";
 
-export const toggleTodoList = index => {
+export const toggleTodo = index => {
   return {
-    type: TOGGLE_TODO,
+    type: TOGGLE_TODO_LIST,
     payload: index
   };
 };
